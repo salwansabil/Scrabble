@@ -1,0 +1,15 @@
+    In this project, I have created a single line sample of the Scrabble board game. Once the page loads, seven random Scrabble tiles are dealt to the user.
+I used the JSON data structure created by Ramon Meza and Jason Downing (pieces.json). I used jQuery ui in order to use the tiles and make them draggable.
+I also added the rack background of the wooden tray. Tiles are meant to sit inside it, however, some of my tiles sit outside the tray. (Steps 1-5)
+
+    Also each board square is designed as droppable (another jQuery ui) so that the player can drag then drop tiles into the squares. Another feature
+are the bonus square. The squares contain a data-bonus attribute that will determine the score. There is a score button that relays the total score by
+applying the letter bonus and word multiplier. The button can be pressed at any time and shows an updated score.
+
+    I have implemented a reset button that will return all the tiles to the rack. This resets the dragging/dropping for the tiles and clears the score as well.
+
+    I included a "Deal New Tiles" button if the player gets stuck and cannot make a word out of the letter tiles that were dealt. This will deal another
+seven random letter tiles.
+
+GitHub URL:https://salwansabil.github.io/Scrabble/
+GitHub Repos:https://github.com/salwansabil/Scrabble

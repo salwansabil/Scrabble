@@ -1,0 +1,44 @@
+/*
+File: style.css
+GUI Assignment: Scrabble
+Salwan Sabil, UMass Lowell Computer Science, salwan_sabil@student.uml.edu
+Copyright (c) 2025 by Salwan. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by SS on July 4, 2025 at 12:30 PM
+*/
+.tile {
+  width: 60px;
+  height: auto;
+  cursor: grab;
+  margin: 0;
+}
+#rack {
+  width: 640px;
+  height: 100px;
+  background: url('../images/scrabble-tile-holder-406774_640.png') no-repeat center center;
+  background-size: contain;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px 12px 20px;
+  box-sizing: border-box;
+}
+.board-row {
+  width: 1125px;
+  height: 80px;
+  background: url('../images/Scrabble_Board_OneLine.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3px;
+}
+.board-square {
+  width: 64px;
+  height: 80px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
